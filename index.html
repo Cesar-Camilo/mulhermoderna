@@ -22,8 +22,9 @@
 
     <link rel="stylesheet" href="style.css" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="icon" href="/assets/LOGOMARCA 3D2 .png" />
 
-    <title>Barbearia</title>
+    <title>D'Oliveira - Barbearia</title>
   </head>
   <body>
     <!-- HEADER -->
@@ -85,28 +86,14 @@
       </header>
     </div>
 
-    <!-- ABOUT -->
-    <section class="about">
-      <div class="container about-content">
-        <div data-aos="zoom-in" data-aos-delay="100">
-          <img src="assets/sobre nos.png" alt="Sobre nós" />
-        </div>
-
-        <div class="about-description" data-aos="zoom-out" data-aos-delay="250">
-          <h2>Sobre nós</h2>
-          <p>
-            A Barbearia D'Oliveira, inaugurada em 2023, oferece um ambiente
-            elegante e acolhedor, com uma equipe de três cabeleireiros
-            especializados em cortes e cuidados masculinos de alta qualidade.
-          </p>
-        </div>
-      </div>
-    </section>
-
     <!-- Serviços -->
 
     <section class="services">
-      <div class="services-content container">
+      <div
+        class="services-content container"
+        data-aos="fade-up"
+        data-aos-delay="150"
+      >
         <h2>Serviços</h2>
         <p>
           A Barbearia D'Oliveira oferece serviços especializados, incluindo
@@ -117,7 +104,7 @@
       </div>
 
       <section class="cortes">
-        <div class="haircut" data-aos="fade-up" data-aos-delay="150">
+        <div class="haircut" data-aos="fade-up" data-aos-delay="350">
           <img src="assets/corte1.png" alt="Corte Normal" />
           <div class="haircut-info">
             <strong>Corte Tradicional</strong>
@@ -141,12 +128,88 @@
           </div>
         </div>
       </section>
+
+      <section class="additional-services">
+        <h3>
+          <i data-aos="zoom-in-left" data-aos-delay="250">Outros serviços</i>
+        </h3>
+        <ul>
+          <li
+            data-aos="fade-right"
+            data-aos-delay="250"
+            data-aos-easing="ease-in-sine"
+          >
+            <strong>Sobrancelha</strong> - R$10,00
+          </li>
+          <li
+            data-aos="fade-right"
+            data-aos-delay="350"
+            data-aos-easing="ease-in-sine"
+          >
+            <strong>Relaxamento</strong> - a partir de R$35,00
+          </li>
+          <li
+            data-aos="fade-right"
+            data-aos-delay="450"
+            data-aos-easing="ease-in-sine"
+          >
+            <strong>Luzes</strong> - a partir de R$60,00
+          </li>
+          <li
+            data-aos="fade-right"
+            data-aos-delay="550"
+            data-aos-easing="ease-in-sine"
+          >
+            <strong>Platinado/Nevou</strong> - a partir de R$90,00
+          </li>
+          <li
+            data-aos="fade-right"
+            data-aos-delay="650"
+            data-aos-easing="ease-in-sine"
+          >
+            <strong>Pigmentação</strong> - R$25,00
+          </li>
+          <li
+            data-aos="fade-right"
+            data-aos-delay="750"
+            data-aos-easing="ease-in-sine"
+          >
+            <strong>Limpeza de pele</strong> - R$25,00
+          </li>
+          <li
+            data-aos="fade-right"
+            data-aos-delay="850"
+            data-aos-easing="ease-in-sine"
+          >
+            <strong>Depilação nasal</strong> - R$10,00
+          </li>
+        </ul>
+      </section>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about">
+      <div class="container about-content">
+        <div class="about-description" data-aos="zoom-out" data-aos-delay="250">
+          <h2>Sobre nós</h2>
+          <div data-aos="zoom-in" data-aos-delay="100">
+            <img src="assets/sobre nos.png" alt="Sobre nós" />
+          </div>
+          <p data-aos="zoom-out" data-aos-delay="250">
+            A Barbearia D'Oliveira, inaugurada em 2023, oferece um ambiente
+            elegante e acolhedor, com uma equipe de três cabeleireiros
+            especializados em cortes e cuidados masculinos de alta qualidade.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- FOOTER -->
 
     <div class="maps">
-      <h2>Venha conhecer nosso espaço</h2>
+      <h2 data-aos="fade-up" data-aos-delay="250">
+        Venha conhecer nosso espaço
+      </h2>
       <iframe
         width="100%"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4381.329370777965!2d-49.95025922395303!3d-22.217663013607993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bfd739c2e4ac27%3A0xbf3ad52ce5eaa013!2sAv.%20Carlos%20Gomes%2C%20571%20-%20Mar%C3%ADlia%2C%20SP%2C%2017500-030!5e1!3m2!1spt-BR!2sbr!4v1729629568608!5m2!1spt-BR!2sbr"
@@ -156,6 +219,8 @@
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
+        data-aos="fade-up"
+        data-aos-delay="350"
       ></iframe>
     </div>
 

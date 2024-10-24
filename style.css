@@ -174,9 +174,12 @@ i {
   justify-content: center;
   gap: 14px;
   padding: 34px 14px 64px 14px;
+  text-align: center;
 }
 .about-content img {
   max-width: 570px;
+  margin: 0 auto;
+  display: block;
 }
 
 .about-content div {
@@ -184,6 +187,7 @@ i {
 }
 
 .about-description h2 {
+  color: #caa661;
   font-size: 38px;
   margin-bottom: 24px;
   text-align: center;
@@ -192,6 +196,8 @@ i {
 .about-description p {
   margin-bottom: 14px;
   line-height: 150%;
+  text-align: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -200,7 +206,7 @@ i {
   }
 }
 .services {
-  background-color: #fff;
+  background-color: #06121e;
   color: #232224;
   display: flex;
   flex-direction: column;
@@ -211,12 +217,14 @@ i {
 
 .services-content h2 {
   text-transform: uppercase;
+  color: #caa661;
   text-align: center;
   font-size: 38px;
   margin-bottom: 14px;
 }
 
 .services-content p {
+  color: #fff;
   line-height: 150%;
   margin-bottom: 14px;
   text-align: center;
@@ -237,7 +245,7 @@ i {
   flex-direction: column;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px -1px 17px -4px rgba(226, 221, 221, 0.45);
   overflow: hidden;
 }
 .haircut img {
@@ -277,14 +285,41 @@ i {
     max-width: 740px;
   }
 }
+.additional-services {
+  margin-top: 20px;
+  text-align: left;
+}
+.additional-services h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #caa661;
+}
+.additional-services strong {
+  color: #caa661;
+}
+.additional-services ul {
+  list-style-type: none;
+  padding: 0 64px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.additional-services ul li {
+  font-size: 1.1em;
+  color: #fff;
+}
+
 .maps {
-  background-color: #fff;
-  color: #232224;
+  text-transform: uppercase;
+  color: #caa661;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
   padding: 54px 14px;
+  gap: 30px;
 }
 
 .footer {
